@@ -28,24 +28,4 @@ function sgOpenIngressNonHttpPorts() {
         }
     });
 }
-// sgOpenIngressNonHttpPorts();
-
-var obj = {
-    "version": "0",
-    "id": "5231cf49-2764-4e8a-a8be-eff8eeba4964",
-    "detail-type": "EC2 Instance State-change Notification",
-    "source": "aws.ec2",
-    "account": "652736668156",
-    "time": "2017-06-18T09:29:48Z",
-    "region": "us-east-1",
-    "resources": [
-        "arn:aws:ec2:us-east-1:652736668156:instance/i-0898a7de1bb12a2fb"
-    ],
-    "detail": {
-        "instance-id": "i-0898a7de1bb12a2fb",
-        "state": "stopping"
-    }
-}
-
-obj1 = obj.detail
-console.log(obj.detail['instance-id']);
+sgOpenIngressNonHttpPorts();

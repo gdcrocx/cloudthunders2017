@@ -89,5 +89,5 @@ function s3UnencryptedBuckets() {
         }
     });
 }
-// s3GlobalAcls();
-// s3UnencryptedBuckets();
+s3GlobalAcls();
+s3UnencryptedBuckets();

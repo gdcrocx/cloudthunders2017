@@ -25,4 +25,4 @@ function rdsUnencryptedDBInstances() {
         }
     });
 }
-//rdsUnencryptedDBInstances();
+rdsUnencryptedDBInstances();

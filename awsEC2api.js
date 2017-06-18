@@ -36,7 +36,7 @@ function ec2UnencryptedVolumes() {
             }
         ],
         InstanceIds: [
-            'i-0898a7de1bb12a2fb'
+            instanceId
         ]
     }
 
@@ -56,6 +56,6 @@ function ec2UnencryptedVolumes() {
                 }
             }
         }
-    });    
+    });
 }
 ec2UnencryptedVolumes();
